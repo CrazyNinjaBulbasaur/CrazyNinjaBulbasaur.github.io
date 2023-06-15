@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  const apiRoot = 'https://fifip-remote-tasks.crazyninjabulba.repl.co/v1/tasks';
-  const trelloApiRoot = 'https://fifip-remote-tasks.crazyninjabulba.repl.co/v1/trello';
+  const apiRoot = 'https://filip-tasks.crazyninjabulba.repl.co/v1/tasks';
+  const trelloApiRoot = 'https://filip-tasks.crazyninjabulba.repl.co/v1/trello';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
